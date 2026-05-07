@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión Tipo 1 - Renta Fija | Tierra Azul Capital</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',    
+                            primary: '#1e3a8a', 
+                            accent: '#10b981',  
+                            light: '#f8fafc',   
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light text-slate-800 antialiased flex flex-col min-h-screen">
 
+    <header class="bg-brand-dark text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <i class="fa-solid fa-building-shield text-3xl text-brand-accent group-hover:scale-110 transition-transform"></i>
+                    <div>
+                        <h1 class="font-bold text-xl tracking-wide uppercase">TIERRA AZUL<br><span class="text-brand-accent text-sm">Capital</span></h1>
+                    </div>
+                </a>
+                
+                <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <a href="index.html#proyectos" class="hover:text-brand-accent transition">Volver al Inicio</a>
+                    <a href="index.html#contacto" class="hover:text-brand-accent transition">Contáctanos</a>
+                </nav>
+
+                <div>
+                    <a href="login.html" class="flex items-center gap-2 bg-brand-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition shadow-lg shadow-brand-primary/30">
+                        <i class="fa-regular fa-user"></i> Iniciar Sesión
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative w-full h-[350px] bg-brand-dark flex items-center justify-center">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeefa?auto=format&fit=crop&w=1600&q=80" alt="Flipping y Plazas Comerciales" class="absolute inset-0 w-full h-full object-cover opacity-30">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent"></div>
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <span class="bg-brand-accent text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 inline-block">Renta Fija Trimestral</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">INVERSIÓN TIPO 1</h1>
+            <p class="text-lg text-slate-300">Portafolio enfocado en flujos de efectivo. Participación en Flipping, Plazas Comerciales y Desarrollo Vertical en la Riviera Maya.</p>
+        </div>
+    </section>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                <div class="relative h-48">
+                    <img src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=800&q=80" alt="Plaza Comercial" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
+                        <i class="fa-solid fa-fire mr-1"></i> Fondeo Activo
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Chetumal, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 4 - Plaza Comercial</h3>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Adquisición de propiedades ancla. Rentabilidad basada en arrendamientos garantizados por contrato comercial.</p>
+                    <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Rendimiento</p>
+                            <p class="text-lg font-bold text-brand-accent">14.5% Anual</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
+                            <p class="text-lg font-bold text-slate-800">36 Meses</p>
+                        </div>
+                    </div>
+                    <button class="w-full bg-brand-primary hover:bg-blue-800 text-white font-bold py-2 rounded-lg transition shadow-md">Solicitar Información</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                <div class="relative h-48">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Departamentos Tulum" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
+                        <i class="fa-solid fa-hourglass-half mr-1"></i> 90% Fondeado
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Tulum, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 3 - Desarrollo Vertical</h3>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Participación en desarrollo de departamentos de lujo enfocados en rentas vacacionales (Airbnb) con alto retorno.</p>
+                    <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Rendimiento</p>
+                            <p class="text-lg font-bold text-brand-accent">16.0% Anual</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
+                            <p class="text-lg font-bold text-slate-800">16 Meses</p>
+                        </div>
+                    </div>
+                    <button class="w-full bg-brand-primary hover:bg-blue-800 text-white font-bold py-2 rounded-lg transition shadow-md">Solicitar Información</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                <div class="relative h-48">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Proyecto Hogares" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
+                        <i class="fa-solid fa-fire mr-1"></i> Fondeo Activo
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Mahahual, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIED
