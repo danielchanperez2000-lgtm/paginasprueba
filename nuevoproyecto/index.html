@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONCEPTO INICIAL</title>
+    <title>Tierra Azul Capital - Inversiones Inmobiliarias</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
         }
     </script>
     <style>
-        body { background-color: #f8fafc; }
+        body { background-color: #f8fafc; scroll-behavior: smooth; }
         /* Transición súper suave para el carrusel */
         #main-carousel { transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
     </style>
@@ -43,12 +43,18 @@
                 <div class="flex items-center gap-3">
                     <i class="fa-solid fa-building-shield text-3xl text-brand-accent"></i>
                     <div>
-                        <h1 class="font-bold text-xl tracking-wide uppercase">PROYECTO HOGARES<br><span class="text-brand-accent text-sm">Capital</span></h1>
+                        <h1 class="font-bold text-xl tracking-wide uppercase">TIERRA AZUL<br><span class="text-brand-accent text-sm">Capital</span></h1>
                     </div>
                 </div>
+                
+                <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <a href="#proyectos" class="hover:text-brand-accent transition">Conoce los proyectos de inversión</a>
+                    <a href="#contacto" class="hover:text-brand-accent transition">Contáctanos</a>
+                </nav>
+
                 <div>
-                    <a href="dashboard.html" class="flex items-center gap-2 bg-brand-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition shadow-lg shadow-brand-primary/30">
-                        <i class="fa-regular fa-user"></i> ACCEDER
+                    <a href="login.html" class="flex items-center gap-2 bg-brand-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition shadow-lg shadow-brand-primary/30">
+                        <i class="fa-regular fa-user"></i> Iniciar Sesión / Registro
                     </a>
                 </div>
             </div>
@@ -59,33 +65,65 @@
         <div id="main-carousel" class="flex w-full h-full">
             
             <div class="relative min-w-full h-full group">
-                <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1600&q=80" alt="Inversión Caribe" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-105">
+                <img src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&w=1600&q=80" alt="Plaza Comercial Chetumal" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/60 to-transparent"></div>
                 
                 <div class="relative flex flex-col justify-center h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
                     <span class="bg-brand-accent text-white text-xs font-bold px-3 py-1 rounded-full w-fit mb-4 uppercase tracking-widest shadow-lg shadow-brand-accent/20">
-                        <i class="fa-solid fa-bolt text-yellow-300 mr-1"></i> Oportunidad Activa
+                        <i class="fa-solid fa-fire text-yellow-300 mr-1"></i> Propiedad 4 - Fondeo Activo
                     </span>
                     <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
-                        Invierte en el creciente <br> mercado del <span class="text-brand-accent italic font-serif">Caribe Mexicano</span>
+                        Plaza Comercial en <br><span class="text-brand-accent italic font-serif">Chetumal, Q. Roo</span>
                     </h2>
                     <p class="text-lg text-slate-300 max-w-xl mb-8">
-                        Explora nuestras amplias opciones de inversión. Rendimientos fijos respaldados por contrato, con pagos trimestrales garantizados.
+                        Adquisición de propiedades ancla. Máxima rentabilidad basada en arrendamientos comerciales garantizados.
                     </p>
                     
                     <div class="flex gap-6 mb-8">
                         <div class="border-l-2 border-brand-accent pl-4">
-                            <p class="text-brand-accent font-bold text-2xl md:text-3xl">18.5%</p>
+                            <p class="text-brand-accent font-bold text-2xl md:text-3xl">14.5%</p>
                             <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Rendimiento Anual</p>
                         </div>
                         <div class="border-l-2 border-slate-500 pl-4">
-                            <p class="font-bold text-2xl md:text-3xl text-white">15 Meses</p>
+                            <p class="font-bold text-2xl md:text-3xl text-white">36 Meses</p>
                             <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Plazo Fijo</p>
                         </div>
                     </div>
                     
                     <button class="bg-brand-primary hover:bg-blue-700 text-white font-bold py-3 md:py-4 px-8 rounded-xl w-fit transition-all shadow-lg shadow-brand-primary/40">
-                        Ver Portafolio de Proyectos
+                        Ver Detalles del Proyecto
+                    </button>
+                </div>
+            </div>
+
+            <div class="relative min-w-full h-full group">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80" alt="Departamentos Tulum" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/60 to-transparent"></div>
+                
+                <div class="relative flex flex-col justify-center h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+                    <span class="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full w-fit mb-4 uppercase tracking-widest shadow-lg shadow-orange-500/20">
+                        <i class="fa-solid fa-hourglass-half mr-1"></i> Propiedad 3 - 90% Fondeado
+                    </span>
+                    <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                        Desarrollo Vertical en <br> <span class="text-orange-400 italic font-serif">Tulum, Q. Roo</span>
+                    </h2>
+                    <p class="text-lg text-slate-300 max-w-xl mb-8">
+                        Participación en desarrollos de lujo enfocados en rentas vacacionales (Airbnb) en la zona de mayor crecimiento.
+                    </p>
+                    
+                    <div class="flex gap-6 mb-8">
+                        <div class="border-l-2 border-orange-500 pl-4">
+                            <p class="text-orange-400 font-bold text-2xl md:text-3xl">16.0%</p>
+                            <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Rendimiento Anual</p>
+                        </div>
+                        <div class="border-l-2 border-slate-500 pl-4">
+                            <p class="font-bold text-2xl md:text-3xl text-white">16 Meses</p>
+                            <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Plazo Fijo</p>
+                        </div>
+                    </div>
+                    
+                    <button class="bg-white hover:bg-slate-200 text-brand-dark font-bold py-3 md:py-4 px-8 rounded-xl w-fit transition-all shadow-lg">
+                        Ver Detalles del Proyecto
                     </button>
                 </div>
             </div>
@@ -96,7 +134,7 @@
                 
                 <div class="relative flex flex-col justify-center h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
                     <span class="bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full w-fit mb-4 uppercase tracking-widest shadow-lg shadow-blue-500/20">
-                        <i class="fa-solid fa-clock mr-1"></i> Preventa Exclusiva
+                        <i class="fa-solid fa-clock mr-1"></i> Propiedad 2 - Preventa Exclusiva
                     </span>
                     <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
                         Lotes Residenciales en <br> <span class="text-blue-400 italic font-serif">Bacalar, Q. Roo</span>
@@ -111,12 +149,12 @@
                             <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Plusvalía Est.</p>
                         </div>
                         <div class="border-l-2 border-slate-500 pl-4">
-                            <p class="font-bold text-2xl md:text-3xl text-white">Bajo Riesgo</p>
-                            <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Garantía Inmobiliaria</p>
+                            <p class="font-bold text-2xl md:text-3xl text-white">12 Meses</p>
+                            <p class="text-slate-400 text-xs md:text-sm uppercase font-semibold">Plazo Fijo</p>
                         </div>
                     </div>
                     
-                    <button class="bg-white hover:bg-slate-200 text-brand-dark font-bold py-3 md:py-4 px-8 rounded-xl w-fit transition-all shadow-lg">
+                    <button class="bg-brand-primary hover:bg-blue-700 text-white font-bold py-3 md:py-4 px-8 rounded-xl w-fit transition-all shadow-lg shadow-brand-primary/40">
                         Solicitar Catálogo
                     </button>
                 </div>
@@ -134,61 +172,98 @@
         <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-20">
             <button onclick="goToSlide(0)" class="dot w-12 md:w-16 h-1.5 rounded-full bg-white transition-all cursor-pointer shadow-sm"></button>
             <button onclick="goToSlide(1)" class="dot w-12 md:w-16 h-1.5 rounded-full bg-white/30 hover:bg-white/50 transition-all cursor-pointer shadow-sm"></button>
+            <button onclick="goToSlide(2)" class="dot w-12 md:w-16 h-1.5 rounded-full bg-white/30 hover:bg-white/50 transition-all cursor-pointer shadow-sm"></button>
         </div>
     </section>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div class="mb-10 text-center md:text-left">
-            <h3 class="text-2xl font-extrabold text-brand-dark mb-2">Proyectos Destacados</h3>
-            <p class="text-slate-500">Oportunidades seleccionadas por nuestro equipo de expertos.</p>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-brand-dark mb-6">Nuestro Objetivo</h2>
+        <p class="text-lg text-slate-600 max-w-4xl mx-auto mb-16 leading-relaxed">
+            En <strong>Tierra Azul Capital</strong>, nuestra misión es democratizar el acceso a inversiones inmobiliarias de alto nivel. Nos dedicamos a proteger tu capital y generar riqueza generacional mediante la selección rigurosa, desarrollo y administración de propiedades con alta plusvalía en el Caribe Mexicano. Tu tranquilidad financiera es nuestro proyecto más importante.
+        </p>
+
+        <h3 class="text-2xl md:text-3xl font-bold text-brand-dark mb-10">¿Por qué invertir con nosotros?</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+            <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition">
+                <i class="fa-solid fa-shield-halved text-4xl text-brand-primary mb-5"></i>
+                <h4 class="text-xl font-bold mb-3 text-slate-800">Seguridad Jurídica</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Cada inversión está respaldada por contratos físicos notariados y garantías reales. No somos una Fintech digital, somos un club privado con operaciones tangibles.</p>
+            </div>
+            <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition">
+                <i class="fa-solid fa-chart-line text-4xl text-brand-accent mb-5"></i>
+                <h4 class="text-xl font-bold mb-3 text-slate-800">Alta Rentabilidad</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Ofrecemos rendimientos muy superiores a la banca tradicional. Nuestros modelos están diseñados para vencer la inflación mediante el apalancamiento en bienes raíces.</p>
+            </div>
+            <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition">
+                <i class="fa-solid fa-magnifying-glass-chart text-4xl text-blue-500 mb-5"></i>
+                <h4 class="text-xl font-bold mb-3 text-slate-800">Transparencia Total</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Como socio, tendrás acceso 24/7 a tu portal de inversionista privado para monitorear el avance de obra, descargar tus contratos y revisar tus estados de cuenta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12 text-center">
+                <h3 class="text-3xl md:text-4xl font-extrabold text-brand-dark mb-4">Tipos de Inversión</h3>
+                <p class="text-slate-500 text-lg">Selecciona la estrategia que mejor se adapte a tus metas financieras.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <a href="tipo1.html" class="group block relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeefa?auto=format&fit=crop&w=800&q=80" alt="Inversión Tipo 1" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <span class="bg-brand-accent text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 inline-block">Renta Fija Trimestral</span>
+                        <h4 class="text-3xl font-bold text-white mb-3 group-hover:text-brand-accent transition">INVERSIÓN TIPO 1</h4>
+                        <p class="text-slate-200 flex justify-between items-center text-sm md:text-base">
+                            Flipping, Plazas Comerciales y Desarrollo Vertical. <i class="fa-solid fa-arrow-right text-xl group-hover:translate-x-3 transition-transform"></i>
+                        </p>
+                    </div>
+                </a>
+
+                <a href="tipo2.html" class="group block relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Inversión Tipo 2" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <span class="bg-blue-500 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 inline-block">Alta Plusvalía</span>
+                        <h4 class="text-3xl font-bold text-white mb-3 group-hover:text-blue-400 transition">INVERSIÓN TIPO 2</h4>
+                        <p class="text-slate-200 flex justify-between items-center text-sm md:text-base">
+                            Lotes Residenciales, Macro Lotes y Tierra de Inversión. <i class="fa-solid fa-arrow-right text-xl group-hover:translate-x-3 transition-transform"></i>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="mb-10 text-center md:text-left border-b border-slate-200 pb-6">
+            <h3 class="text-2xl font-extrabold text-brand-dark mb-2">Catálogo General de Propiedades</h3>
+            <p class="text-slate-500">Todos nuestros proyectos activos y concluidos.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div class="relative h-48">
-                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Proyecto Hogares" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=800&q=80" alt="Plaza Comercial" class="w-full h-full object-cover">
                     <div class="absolute top-4 left-4 bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
                         <i class="fa-solid fa-fire mr-1"></i> Fondeo Activo
                     </div>
                 </div>
                 <div class="p-6">
-                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Mahahual, Q. Roo</p>
-                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 1</h3>
-                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Flipping y desarrollo residencial premium en la Costa Maya. Alta plusvalía.</p>
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Chetumal, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 4</h3>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Adquisición de propiedades ancla. Rentabilidad basada en arrendamientos.</p>
                     <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
                         <div>
                             <p class="text-xs text-slate-500 uppercase font-semibold">Rendimiento</p>
-                            <p class="text-lg font-bold text-brand-accent">18.5% Anual</p>
+                            <p class="text-lg font-bold text-brand-accent">14.5% Anual</p>
                         </div>
                         <div>
                             <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
-                            <p class="text-lg font-bold text-slate-800">15 Meses</p>
-                        </div>
-                    </div>
-                    <button class="w-full bg-slate-100 hover:bg-slate-200 text-brand-dark font-bold py-2 rounded-lg transition">Ver Detalles</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
-                <div class="relative h-48">
-                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Lotes Bacalar" class="w-full h-full object-cover">
-                    <div class="absolute top-4 left-4 bg-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
-                        <i class="fa-solid fa-clock mr-1"></i> Preventa
-                    </div>
-                </div>
-                <div class="p-6">
-                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Bacalar, Q. Roo</p>
-                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 2</h3>
-                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Lotes de inversión urbanizados a 5 minutos de la laguna de bacalar. Desarrollo sustentable.</p>
-                    <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
-                        <div>
-                            <p class="text-xs text-slate-500 uppercase font-semibold">Plusvalía Est.</p>
-                            <p class="text-lg font-bold text-brand-accent">19.0% Anual</p>
-                        </div>
-                        <div>
-                            <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
-                            <p class="text-lg font-bold text-slate-800">12 Meses</p>
+                            <p class="text-lg font-bold text-slate-800">36 Meses</p>
                         </div>
                     </div>
                     <button class="w-full bg-slate-100 hover:bg-slate-200 text-brand-dark font-bold py-2 rounded-lg transition">Ver Detalles</button>
@@ -222,23 +297,48 @@
 
             <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div class="relative h-48">
-                    <img src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=800&q=80" alt="Plaza Comercial" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Lotes Bacalar" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
+                        <i class="fa-solid fa-clock mr-1"></i> Preventa
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Bacalar, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 2</h3>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Lotes de inversión urbanizados a 5 minutos de la laguna de bacalar. Desarrollo sustentable.</p>
+                    <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Plusvalía Est.</p>
+                            <p class="text-lg font-bold text-brand-accent">19.0% Anual</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
+                            <p class="text-lg font-bold text-slate-800">12 Meses</p>
+                        </div>
+                    </div>
+                    <button class="w-full bg-slate-100 hover:bg-slate-200 text-brand-dark font-bold py-2 rounded-lg transition">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                <div class="relative h-48">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Proyecto Hogares" class="w-full h-full object-cover">
                     <div class="absolute top-4 left-4 bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
                         <i class="fa-solid fa-fire mr-1"></i> Fondeo Activo
                     </div>
                 </div>
                 <div class="p-6">
-                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Chetumal, Q. Roo</p>
-                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 4</h3>
-                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Adquisición de propiedades ancla. Rentabilidad basada en arrendamientos.</p>
+                    <p class="text-xs text-slate-500 mb-1"><i class="fa-solid fa-location-dot"></i> Mahahual, Q. Roo</p>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">PROPIEDAD 1</h3>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-2">Flipping y desarrollo residencial premium en la Costa Maya. Alta plusvalía.</p>
                     <div class="grid grid-cols-2 gap-4 mb-4 border-t border-b py-3 border-slate-100">
                         <div>
                             <p class="text-xs text-slate-500 uppercase font-semibold">Rendimiento</p>
-                            <p class="text-lg font-bold text-brand-accent">14.5% Anual</p>
+                            <p class="text-lg font-bold text-brand-accent">18.5% Anual</p>
                         </div>
                         <div>
                             <p class="text-xs text-slate-500 uppercase font-semibold">Plazo</p>
-                            <p class="text-lg font-bold text-slate-800">36 Meses</p>
+                            <p class="text-lg font-bold text-slate-800">15 Meses</p>
                         </div>
                     </div>
                     <button class="w-full bg-slate-100 hover:bg-slate-200 text-brand-dark font-bold py-2 rounded-lg transition">Ver Detalles</button>
@@ -275,7 +375,7 @@
 
     <script>
         let activeSlide = 0;
-        const slidesCount = 2; // Número total de imágenes en el carrusel superior
+        const slidesCount = 3; // Actualizado a 3 imágenes en el carrusel superior
         const track = document.getElementById('main-carousel');
         const dots = document.querySelectorAll('.dot');
         let slideInterval;
@@ -316,8 +416,8 @@
         // Iniciar auto-play cada 6 segundos
         slideInterval = setInterval(() => moveCarousel(1), 6000);
     </script>
-</body>
-    <footer class="bg-brand-dark border-t border-slate-800 pt-16 pb-8 mt-20 relative overflow-hidden">
+    
+    <footer id="contacto" class="bg-brand-dark border-t border-slate-800 pt-16 pb-8 mt-20 relative overflow-hidden">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-gradient-to-r from-transparent via-brand-primary to-transparent opacity-50"></div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -359,7 +459,7 @@
                         <li><a href="#" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Portafolio Activo</a></li>
                         <li><a href="#" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Proyectos Completados</a></li>
                         <li><a href="#" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Simulador de Rendimientos</a></li>
-                        <li><a href="dashboard.html" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Acceso a Inversionistas</a></li>
+                        <li><a href="login.html" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Acceso a Inversionistas</a></li>
                         <li><a href="#" class="hover:text-brand-accent transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-xs"></i> Preguntas Frecuentes</a></li>
                     </ul>
                 </div>
@@ -415,4 +515,5 @@
             </div>
         </div>
     </footer>
+</body>
 </html>
